@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152AB89F26AF297A00154400 /* Three_Letter_Word_HackwichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152AB89E26AF297A00154400 /* Three_Letter_Word_HackwichApp.swift */; };
+		152AB8A126AF297A00154400 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152AB8A026AF297A00154400 /* ContentView.swift */; };
+		152AB8A326AF298400154400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152AB8A226AF298400154400 /* Assets.xcassets */; };
+		152AB8A626AF298400154400 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152AB8A526AF298400154400 /* Preview Assets.xcassets */; };
+		152AB8B126AF298600154400 /* Three_Letter_Word_HackwichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152AB8B026AF298600154400 /* Three_Letter_Word_HackwichTests.swift */; };
+		152AB8BC26AF298600154400 /* Three_Letter_Word_HackwichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152AB8BB26AF298600154400 /* Three_Letter_Word_HackwichUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152AB8AD26AF298600154400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152AB89326AF297A00154400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152AB89A26AF297A00154400;
+			remoteInfo = "Three Letter Word Hackwich";
+		};
+		152AB8B826AF298600154400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152AB89326AF297A00154400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152AB89A26AF297A00154400;
+			remoteInfo = "Three Letter Word Hackwich";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152AB89B26AF297A00154400 /* Three Letter Word Hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Letter Word Hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152AB89E26AF297A00154400 /* Three_Letter_Word_HackwichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_Letter_Word_HackwichApp.swift; sourceTree = "<group>"; };
+		152AB8A026AF297A00154400 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		152AB8A226AF298400154400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		152AB8A526AF298400154400 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		152AB8A726AF298400154400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152AB8AC26AF298600154400 /* Three Letter Word HackwichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Letter Word HackwichTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152AB8B026AF298600154400 /* Three_Letter_Word_HackwichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_Letter_Word_HackwichTests.swift; sourceTree = "<group>"; };
+		152AB8B226AF298600154400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152AB8B726AF298600154400 /* Three Letter Word HackwichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Letter Word HackwichUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152AB8BB26AF298600154400 /* Three_Letter_Word_HackwichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_Letter_Word_HackwichUITests.swift; sourceTree = "<group>"; };
+		152AB8BD26AF298600154400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		152AB89826AF297A00154400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152AB8A926AF298600154400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152AB8B426AF298600154400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152AB89226AF297A00154400 = {
+			isa = PBXGroup;
+			children = (
+				152AB89D26AF297A00154400 /* Three Letter Word Hackwich */,
+				152AB8AF26AF298600154400 /* Three Letter Word HackwichTests */,
+				152AB8BA26AF298600154400 /* Three Letter Word HackwichUITests */,
+				152AB89C26AF297A00154400 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		152AB89C26AF297A00154400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				152AB89B26AF297A00154400 /* Three Letter Word Hackwich.app */,
+				152AB8AC26AF298600154400 /* Three Letter Word HackwichTests.xctest */,
+				152AB8B726AF298600154400 /* Three Letter Word HackwichUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		152AB89D26AF297A00154400 /* Three Letter Word Hackwich */ = {
+			isa = PBXGroup;
+			children = (
+				152AB89E26AF297A00154400 /* Three_Letter_Word_HackwichApp.swift */,
+				152AB8A026AF297A00154400 /* ContentView.swift */,
+				152AB8A226AF298400154400 /* Assets.xcassets */,
+				152AB8A726AF298400154400 /* Info.plist */,
+				152AB8A426AF298400154400 /* Preview Content */,
+			);
+			path = "Three Letter Word Hackwich";
+			sourceTree = "<group>";
+		};
+		152AB8A426AF298400154400 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				152AB8A526AF298400154400 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		152AB8AF26AF298600154400 /* Three Letter Word HackwichTests */ = {
+			isa = PBXGroup;
+			children = (
+				152AB8B026AF298600154400 /* Three_Letter_Word_HackwichTests.swift */,
+				152AB8B226AF298600154400 /* Info.plist */,
+			);
+			path = "Three Letter Word HackwichTests";
+			sourceTree = "<group>";
+		};
+		152AB8BA26AF298600154400 /* Three Letter Word HackwichUITests */ = {
+			isa = PBXGroup;
+			children = (
+				152AB8BB26AF298600154400 /* Three_Letter_Word_HackwichUITests.swift */,
+				152AB8BD26AF298600154400 /* Info.plist */,
+			);
+			path = "Three Letter Word HackwichUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		152AB89A26AF297A00154400 /* Three Letter Word Hackwich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152AB8C026AF298600154400 /* Build configuration list for PBXNativeTarget "Three Letter Word Hackwich" */;
+			buildPhases = (
+				152AB89726AF297A00154400 /* Sources */,
+				152AB89826AF297A00154400 /* Frameworks */,
+				152AB89926AF297A00154400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three Letter Word Hackwich";
+			productName = "Three Letter Word Hackwich";
+			productReference = 152AB89B26AF297A00154400 /* Three Letter Word Hackwich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		152AB8AB26AF298600154400 /* Three Letter Word HackwichTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152AB8C326AF298600154400 /* Build configuration list for PBXNativeTarget "Three Letter Word HackwichTests" */;
+			buildPhases = (
+				152AB8A826AF298600154400 /* Sources */,
+				152AB8A926AF298600154400 /* Frameworks */,
+				152AB8AA26AF298600154400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152AB8AE26AF298600154400 /* PBXTargetDependency */,
+			);
+			name = "Three Letter Word HackwichTests";
+			productName = "Three Letter Word HackwichTests";
+			productReference = 152AB8AC26AF298600154400 /* Three Letter Word HackwichTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		152AB8B626AF298600154400 /* Three Letter Word HackwichUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152AB8C626AF298600154400 /* Build configuration list for PBXNativeTarget "Three Letter Word HackwichUITests" */;
+			buildPhases = (
+				152AB8B326AF298600154400 /* Sources */,
+				152AB8B426AF298600154400 /* Frameworks */,
+				152AB8B526AF298600154400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152AB8B926AF298600154400 /* PBXTargetDependency */,
+			);
+			name = "Three Letter Word HackwichUITests";
+			productName = "Three Letter Word HackwichUITests";
+			productReference = 152AB8B726AF298600154400 /* Three Letter Word HackwichUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		152AB89326AF297A00154400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					152AB89A26AF297A00154400 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					152AB8AB26AF298600154400 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 152AB89A26AF297A00154400;
+					};
+					152AB8B626AF298600154400 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 152AB89A26AF297A00154400;
+					};
+				};
+			};
+			buildConfigurationList = 152AB89626AF297A00154400 /* Build configuration list for PBXProject "Three Letter Word Hackwich" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 152AB89226AF297A00154400;
+			productRefGroup = 152AB89C26AF297A00154400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				152AB89A26AF297A00154400 /* Three Letter Word Hackwich */,
+				152AB8AB26AF298600154400 /* Three Letter Word HackwichTests */,
+				152AB8B626AF298600154400 /* Three Letter Word HackwichUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		152AB89926AF297A00154400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152AB8A626AF298400154400 /* Preview Assets.xcassets in Resources */,
+				152AB8A326AF298400154400 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152AB8AA26AF298600154400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152AB8B526AF298600154400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152AB89726AF297A00154400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152AB8A126AF297A00154400 /* ContentView.swift in Sources */,
+				152AB89F26AF297A00154400 /* Three_Letter_Word_HackwichApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152AB8A826AF298600154400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152AB8B126AF298600154400 /* Three_Letter_Word_HackwichTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152AB8B326AF298600154400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152AB8BC26AF298600154400 /* Three_Letter_Word_HackwichUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152AB8AE26AF298600154400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152AB89A26AF297A00154400 /* Three Letter Word Hackwich */;
+			targetProxy = 152AB8AD26AF298600154400 /* PBXContainerItemProxy */;
+		};
+		152AB8B926AF298600154400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152AB89A26AF297A00154400 /* Three Letter Word Hackwich */;
+			targetProxy = 152AB8B826AF298600154400 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		152AB8BE26AF298600154400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		152AB8BF26AF298600154400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		152AB8C126AF298600154400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Three Letter Word Hackwich/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCJ9SPKDKH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Three Letter Word Hackwich/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelia-Tan.Three-Letter-Word-Hackwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		152AB8C226AF298600154400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Three Letter Word Hackwich/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCJ9SPKDKH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Three Letter Word Hackwich/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelia-Tan.Three-Letter-Word-Hackwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		152AB8C426AF298600154400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCJ9SPKDKH;
+				INFOPLIST_FILE = "Three Letter Word HackwichTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelia-Tan.Three-Letter-Word-HackwichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three Letter Word Hackwich.app/Three Letter Word Hackwich";
+			};
+			name = Debug;
+		};
+		152AB8C526AF298600154400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCJ9SPKDKH;
+				INFOPLIST_FILE = "Three Letter Word HackwichTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelia-Tan.Three-Letter-Word-HackwichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three Letter Word Hackwich.app/Three Letter Word Hackwich";
+			};
+			name = Release;
+		};
+		152AB8C726AF298600154400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCJ9SPKDKH;
+				INFOPLIST_FILE = "Three Letter Word HackwichUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelia-Tan.Three-Letter-Word-HackwichUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Three Letter Word Hackwich";
+			};
+			name = Debug;
+		};
+		152AB8C826AF298600154400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCJ9SPKDKH;
+				INFOPLIST_FILE = "Three Letter Word HackwichUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelia-Tan.Three-Letter-Word-HackwichUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Three Letter Word Hackwich";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152AB89626AF297A00154400 /* Build configuration list for PBXProject "Three Letter Word Hackwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152AB8BE26AF298600154400 /* Debug */,
+				152AB8BF26AF298600154400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152AB8C026AF298600154400 /* Build configuration list for PBXNativeTarget "Three Letter Word Hackwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152AB8C126AF298600154400 /* Debug */,
+				152AB8C226AF298600154400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152AB8C326AF298600154400 /* Build configuration list for PBXNativeTarget "Three Letter Word HackwichTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152AB8C426AF298600154400 /* Debug */,
+				152AB8C526AF298600154400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152AB8C626AF298600154400 /* Build configuration list for PBXNativeTarget "Three Letter Word HackwichUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152AB8C726AF298600154400 /* Debug */,
+				152AB8C826AF298600154400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 152AB89326AF297A00154400 /* Project object */;
+}
